@@ -12,7 +12,7 @@ const sorter = function(data, fn){
   const result = [];
   let index = 1;
   while(index <= listData.length){
-    result.push(index + "." + listData[(index-1)]);
+    result.push(index + ". " + listData[(index-1)]);
     index++;
   }
 
